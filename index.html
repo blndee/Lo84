@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- background video starts-->
+    <div class="videoMenuBackground">
+        <video autoplay muted loop playsinline>
+            <source src="./bgvideos/0824.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <!-- background video ends -->
+
+    <!-- menu section  starts-->
+    <div class="menuSection active">
+        <h1 class="logo glow">L●84</h1>
+        <nav class="navigation">
+            <button id="playButton" class="navButton glow">PLAY</button>
+        </nav>
+    </div>
+    <!-- menu section ends -->
+
+    <!-- game section starts -->
+    <div class="gameSection">
+        <h2 class="glow">gUeSs thE SoNG</h2>
+        <p>♪ ♫ ♬</p>
+        <p id="lyricDisplay" class="logo glow"></p>
+        <p>♪ ♫ ♬</p>
+        <input type="text" id="guessInput" placeholder="tYpE yOUR aNsWrR">
+
+        <p id="feedbackDisplay" class="logo glow"></p>
+
+        <div class="gameButtons">
+            <button id="returnButton" class="navButton glow">RetUrn</button>
+            <button id="nextButton" class="navButton glow">NeXt</button>
+        </div>
+    </div>
+    <!-- game section ends -->
+
+    <script src="script.js"></script>
+</body>
+</html>
